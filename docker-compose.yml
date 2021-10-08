@@ -11,7 +11,7 @@ services:
         - '5432:5432'
       environment:
         - POSTGRES_USER=postgres
-        - POSTGRES_PASS=postgres
+        - POSTGRES_PASS=postgis
         - POSTGRES_DB=postgres
         - POSTGRES_MULTIPLE_EXTENSIONS=postgis,postgis_topology
         - TZ=PST
