@@ -60,16 +60,6 @@ services:
         - 15672:15672
       networks:
         - arches_dev
-    
-    arches_flower:
-      container_name: arches_flower
-      image: mher/flower
-      environment:
-        - CELERY_BROKER_URL=amqp://devuser:devpass@arches_rabbitmq:5672/
-      ports:
-        - '5555:5555'
-      networks:
-        - arches_dev
 
 networks:
   arches_dev:
