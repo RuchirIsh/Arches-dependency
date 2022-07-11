@@ -2,7 +2,7 @@ version: '3.8'
 services:
     arches_db:
       container_name: arches_db
-      image: postgis/postgis:14-3.2
+      image: postgis/postgis:13-3.2
       volumes:
           - postgres-data:/var/lib/postgresql
           - postgres-log:/var/log/postgresql
