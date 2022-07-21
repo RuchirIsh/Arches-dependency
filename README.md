@@ -34,7 +34,7 @@ Arches 7.0.x
 
     Postgres 14.3.2:
         - 5434
-    ElasticSearch 7.9.2:
+    ElasticSearch 8.3.1:
         - 9202
         - 9302
     RabbitMQ 3.x
